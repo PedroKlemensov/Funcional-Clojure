@@ -1,0 +1,5 @@
+(ns Uri1001)
+(def a (read-string (read-line)))
+(def b (read-string (read-line)))
+(def x (+ a b))
+(println "X =" x)

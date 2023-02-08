@@ -1,0 +1,5 @@
+(ns Uri1002)
+(def raio (read-string (read-line)))
+(def pi 3.14159)
+(def area (* pi raio raio))
+(println (format "A=%.4f" area))
