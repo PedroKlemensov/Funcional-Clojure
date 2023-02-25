@@ -1,0 +1,5 @@
+(ns Uri1017)
+(def horas (read-string (read-line)))
+(def velocidade (read-string (read-line)))
+(def total (/ (* horas velocidade) 12.0))
+(println (format "%.3f" total))
