@@ -1,0 +1,8 @@
+(ns Uri1009)
+(def nome (read-string (read-line)))
+(def salario (read-string (read-line)))
+(def venda (read-string (read-line)))
+(def div (/ venda 100))
+(def comicao (* div 15))
+(def total (+ comicao salario))
+(println (format "TOTAL = R$ %.2f" total))
