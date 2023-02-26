@@ -1,0 +1,5 @@
+(ns Uri1014)
+(def distancia (read-string (read-line)))
+(def litros (read-string (read-line)))
+(def total (/ distancia litros))
+(println (format "%.3f km/l" total))
