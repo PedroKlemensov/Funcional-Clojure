@@ -1,4 +1,5 @@
 (ns teste001),
 
 
-(println "ola mundo")
+(print "ola")
+(print " mundo")
