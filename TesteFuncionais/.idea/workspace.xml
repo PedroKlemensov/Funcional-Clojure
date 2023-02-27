@@ -28,23 +28,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cursive.last.file.extension.C\\:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais/src&quot;: &quot;clj&quot;,
-    &quot;cursive.last.file.extension.D\\:/projetos/Funcional-Clojure/TesteFuncionais/src&quot;: &quot;clj&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projetos/Funcional-Clojure/TesteFuncionais&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "cursive.last.file.extension.C\\:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais/src": "clj",
+    "cursive.last.file.extension.D\\:/projetos/Funcional-Clojure/TesteFuncionais/src": "clj",
+    "last_opened_file_path": "C:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="ReplState" timestamp="1677470137620">{:repl-history {:ide [], :local [], :remote []}}</component>
+}]]></component>
+  <component name="ReplState" timestamp="1677499891521">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunManager">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
@@ -115,6 +115,7 @@
       <workItem from="1676299346327" duration="1311000" />
       <workItem from="1677095058286" duration="204000" />
       <workItem from="1677452362388" duration="411000" />
+      <workItem from="1677494718900" duration="5045000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,1 @@
-(ns teste001),
-
-
-(print "ola")
-(print " mundo")
+(dorun (map println (range 2 101 2)))
