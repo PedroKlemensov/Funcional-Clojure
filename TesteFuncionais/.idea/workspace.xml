@@ -45,7 +45,7 @@
   }
 }</component>
   <component name="ReplState" timestamp="1677671784754">{:repl-history {:ide [], :local [], :remote []}}</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Clojure Application.1">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -133,6 +133,7 @@
       <workItem from="1677452362388" duration="411000" />
       <workItem from="1677494718900" duration="5045000" />
       <workItem from="1677581856583" duration="6391000" />
+      <workItem from="1677699485688" duration="1577000" />
     </task>
     <servers />
   </component>
