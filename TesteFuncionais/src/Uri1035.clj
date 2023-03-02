@@ -7,4 +7,4 @@
 (def c (read-string (get entrada 2)))
 (def d (read-string (get entrada 3)))
 
-(c)
+()
