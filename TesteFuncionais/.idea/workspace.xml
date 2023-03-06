@@ -28,24 +28,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cursive.last.file.extension.C\\:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais/src&quot;: &quot;clj&quot;,
-    &quot;cursive.last.file.extension.D\\:/projetos/Funcional-Clojure/TesteFuncionais/src&quot;: &quot;clj&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "cursive.last.file.extension.C\\:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais/src": "clj",
+    "cursive.last.file.extension.D\\:/projetos/Funcional-Clojure/TesteFuncionais/src": "clj",
+    "last_opened_file_path": "D:/projetos/Funcional-Clojure/TesteFuncionais",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReplState" timestamp="1677671784754">{:repl-history {:ide [], :local [], :remote []}}</component>
-  <component name="RunManager" selected="Clojure Application.1">
+  <component name="RunManager">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -96,22 +96,6 @@
       <setting name="focusEditor" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="1" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
-      <module name="TesteFuncionais" />
-      <setting name="path" value="" />
-      <setting name="namespace" value="" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Clojure Application.1" />
-      <item itemvalue="Clojure REPL.Unnamed" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -134,6 +118,8 @@
       <workItem from="1677494718900" duration="5045000" />
       <workItem from="1677581856583" duration="6391000" />
       <workItem from="1677699485688" duration="1577000" />
+      <workItem from="1677954751337" duration="3524000" />
+      <workItem from="1678073303125" duration="1997000" />
     </task>
     <servers />
   </component>

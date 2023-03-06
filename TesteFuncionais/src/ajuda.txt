@@ -1,0 +1,9 @@
+(cond   (and(> b c)
+        (> d a)
+        (> (+ c d) (+ a b))
+        (> c 0) (> d 0)
+        (even? d)
+        (println "Valores nao aceitos"))
+
+        :else
+        (println "Valores aceitos"))
