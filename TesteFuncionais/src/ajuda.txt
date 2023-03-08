@@ -7,3 +7,42 @@
 
         :else
         (println "Valores aceitos"))
+
+
+
+        (pintln (format "Media: %.2f/n" media)
+          (cond
+            (>= mediaF 5.0) (
+            :else ("deu ruim")
+            ;:else (def recupecao (read-string (read-line))
+            ;                 (cond
+            ;                   (>= media 7.0) "Aluno aprovado."
+            ;                   (< media 5.0)  "Aluno reprovado."
+            ;                   )
+            ;                 )
+            )
+
+
+
+              (cond
+                (>= media 5.0)"Aluno aprovado
+                :else "Aluno reprovado
+                )
+
+                 (cond
+                    (>= media 5.0) (format "Aluno aprovado\nMedia final: %.2f" mediaNova)
+                    :else (format "Aluno reprovado\nMedia final: %.2f"mediaNova)
+                    )
+
+
+                    (defn recuperacao [nota]
+                    (str "Aluno em exame.\n"
+
+                      (def notaRecuperacao (read-string (read-line)))
+                      (def mediaNova (/ (+ nota notaRecuperacao) 2))
+                      (format "Nota do exame: %.1f" notaRecuperacao)
+                      (cond
+                        (>= media 5.0) "Aluno aprovado\n"
+                        :else "Aluno reprovado\n")
+                        (format "Media final: %.1f"mediaNova)
+                      ))

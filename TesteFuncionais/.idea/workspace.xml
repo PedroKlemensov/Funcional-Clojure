@@ -33,7 +33,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cursive.last.file.extension.C\\:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais/src": "clj",
     "cursive.last.file.extension.D\\:/projetos/Funcional-Clojure/TesteFuncionais/src": "clj",
-    "last_opened_file_path": "D:/projetos/Funcional-Clojure/TesteFuncionais",
+    "last_opened_file_path": "C:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,6 +41,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -120,6 +121,8 @@
       <workItem from="1677699485688" duration="1577000" />
       <workItem from="1677954751337" duration="3524000" />
       <workItem from="1678073303125" duration="1997000" />
+      <workItem from="1678099323590" duration="4564000" />
+      <workItem from="1678272162565" duration="4306000" />
     </task>
     <servers />
   </component>
