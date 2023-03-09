@@ -1,16 +1,21 @@
 
 (require '[clojure.string :as str])
-(def valores (str/split (read-line) #" "))
-(def primeiro (read-string (get valores 0)))
-(def segundo (read-string (get valores 1)))
-(def terceiro (read-string (get valores 2)))
+(def vetor (str/split (read-line) #" "))
 
-(defn organizar [valores]
-  (def aux0 (valores 0))
-  (def aux1 (valores 1))
-  (def aux3 (valores 2))
+(def vetorSort (sort vetor))
 
-  (cond
-    (< aux1 aux)
+;(println (nth vetorSort 0))
+(println (str
+           (nth vetorSort 0)"\n"
+           (nth vetorSort 1)"\n"
+           (nth vetorSort 2)"\n"
+           "\n"
+           (get vetor 0)"\n"
+           (get vetor 1)"\n"
+           (get vetor 2)
 
-    ))
+           )
+
+         )
+
+
