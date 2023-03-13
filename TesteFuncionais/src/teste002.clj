@@ -1,3 +1,5 @@
 (ns teste002)
-(def x 1)
-(def z  )
+(def a 5)
+(def z 10)
+
+(print (quot 5 11))
