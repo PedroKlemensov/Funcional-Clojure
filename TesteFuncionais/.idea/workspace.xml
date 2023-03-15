@@ -29,24 +29,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cursive.last.file.extension.C\\:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais/src&quot;: &quot;clj&quot;,
-    &quot;cursive.last.file.extension.D\\:/projetos/Funcional-Clojure/TesteFuncionais/src&quot;: &quot;clj&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "cursive.last.file.extension.C\\:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais/src": "clj",
+    "cursive.last.file.extension.D\\:/projetos/Funcional-Clojure/TesteFuncionais/src": "clj",
+    "last_opened_file_path": "C:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="ReplState" timestamp="1678682302718">{:repl-history {:ide [], :local [], :remote []}}</component>
+}]]></component>
+  <component name="ReplState" timestamp="1678883123374">{:repl-history {:ide [], :local [{:command &quot;(dorun (map println (#(divisor %)  (range 1 100)) ) )&quot;, :offset 53, :ns &quot;user&quot;} {:command &quot;(def numero (read-string (read-line)))\n&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n\n  (= (mod mapn numero) 2)\n\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n\n    )  )&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n    :else \&quot;nao\&quot;\n    )  )&quot;, :offset 86, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n    :else -1\n    )  )&quot;, :offset 83, :ns &quot;user&quot;} {:command &quot;(#(divisor %)  (range 1 100))&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (rem mapn numero) 2) mapn\n    :else -1\n    )  )&quot;, :offset 83, :ns &quot;user&quot;} {:command &quot;#(divisor %)  (range 1 100)&quot;, :offset 27, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunManager">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
@@ -130,10 +131,21 @@
       <workItem from="1678628992902" duration="11694000" />
       <workItem from="1678704361722" duration="4373000" />
       <workItem from="1678729852662" duration="2097000" />
+      <workItem from="1678791188973" duration="11608000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
