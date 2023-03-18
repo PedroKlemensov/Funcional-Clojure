@@ -8,7 +8,7 @@
   (def y (read-string (get valores 1)))
 
   (cond
-    (= y 0.0) (println "divisao impossivel")
+    (= y 0) (println "divisao impossivel")
     :else (println (format "%.1f" (double(/ x y)) )  )
     )
 
