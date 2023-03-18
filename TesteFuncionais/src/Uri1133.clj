@@ -10,6 +10,6 @@
   )
 
 (cond
-  (< a b) (dorun (map  #(divisor %)  (range a b )) )
-  (> a b) (dorun (map  #(divisor %)  (range b a )) )
+  (< a b) (dorun (map  #(divisor %)  (range (+ 1 a) b ) ) )
+  (> a b) (dorun (map  #(divisor %)  (range (+ 1 b) a ) ) )
   )
