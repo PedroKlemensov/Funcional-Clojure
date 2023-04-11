@@ -23,7 +23,7 @@
             (> a c) (format "O JOGO DUROU %d HORA(S) E %d MINUTO(S)" (+ (- 24 a) c) (minustos b d) )
             (< a c) (format "O JOGO DUROU %d HORA(S) E %d MINUTO(S)" (- c a) (minustos b d))
             (and (= a 0) (= c 0)) (format "O JOGO DUROU 0 HORA(S) E %d MINUTO(S)" (minustos b d))
-           (= c a) (format "O JOGO DUROU 0 HORA(S) E %d MINUTO(S)" (minustos b d))
+            (= c a) (format "O JOGO DUROU 0 HORA(S) E %d MINUTO(S)" (minustos b d))
 
             :else "O JOGO DUROU 24 HORA(S) E 0 MINUTO(S)"
             ))

@@ -47,7 +47,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="ReplState" timestamp="1678982220946">{:repl-history {:ide [], :local [{:command &quot;(dorun (map println (#(divisor %)  (range 1 100)) ) )&quot;, :offset 53, :ns &quot;user&quot;} {:command &quot;(def numero (read-string (read-line)))\n&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n\n  (= (mod mapn numero) 2)\n\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n\n    )  )&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n    :else \&quot;nao\&quot;\n    )  )&quot;, :offset 86, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n    :else -1\n    )  )&quot;, :offset 83, :ns &quot;user&quot;} {:command &quot;(#(divisor %)  (range 1 100))&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (rem mapn numero) 2) mapn\n    :else -1\n    )  )&quot;, :offset 83, :ns &quot;user&quot;} {:command &quot;#(divisor %)  (range 1 100)&quot;, :offset 27, :ns &quot;user&quot;}], :remote []}}</component>
+  <component name="ReplState" timestamp="1679018837962">{:repl-history {:ide [], :local [{:command &quot;(dorun (map println (#(divisor %)  (range 1 100)) ) )&quot;, :offset 53, :ns &quot;user&quot;} {:command &quot;(def numero (read-string (read-line)))\n&quot;, :offset 39, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n\n  (= (mod mapn numero) 2)\n\n  )&quot;, :offset 52, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n\n    )  )&quot;, :offset 71, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n    :else \&quot;nao\&quot;\n    )  )&quot;, :offset 86, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (mod mapn numero) 2) mapn\n    :else -1\n    )  )&quot;, :offset 83, :ns &quot;user&quot;} {:command &quot;(#(divisor %)  (range 1 100))&quot;, :offset 29, :ns &quot;user&quot;} {:command &quot;(defn divisor [mapn]\n  (cond\n    (= (rem mapn numero) 2) mapn\n    :else -1\n    )  )&quot;, :offset 83, :ns &quot;user&quot;} {:command &quot;#(divisor %)  (range 1 100)&quot;, :offset 27, :ns &quot;user&quot;} {:command &quot;\n(defn x []\n  (def valor (read-string (read-line)))\n\n  )\n&quot;, :offset 56, :ns &quot;user&quot;} {:command &quot;(println (x))&quot;, :offset 13, :ns &quot;user&quot;} {:command &quot;5&quot;, :offset 1, :ns &quot;user&quot;} {:command &quot;(x)&quot;, :offset 3, :ns &quot;user&quot;}], :remote []}}</component>
   <component name="RunManager">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
@@ -134,6 +134,10 @@
       <workItem from="1678791188973" duration="11608000" />
       <workItem from="1678966524031" duration="1184000" />
       <workItem from="1678978047270" duration="4076000" />
+      <workItem from="1679010540626" duration="4388000" />
+      <workItem from="1679061656941" duration="10461000" />
+      <workItem from="1679161558960" duration="8588000" />
+      <workItem from="1679354634041" duration="9624000" />
     </task>
     <servers />
   </component>
