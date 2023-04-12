@@ -3,18 +3,10 @@
 (def entrada 2)
 
 (defn listaEntrada [n]
+  (map (fn [p] (read-string (read-line))) (range 0 n))
+  ) (def valores (listaEntrada entrada))
 
+(def a (apply min valores))
+(def b (apply max valores ))
 
-  (defn adicinar [p]
-    (read-string (read-line))
-
-    )
-  (map adicinar (range 0 n))
-
-  )
-(def valores (listaEntrada entrada))
-
-(def a (nth valores 0))
-(def b (nth valores 1))
-
-(println (reduce +(filter pos? (map (range a b)))))
+(println (reduce + (filter odd?  (range (inc a) b))))
