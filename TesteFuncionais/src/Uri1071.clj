@@ -1,7 +1,6 @@
-(ns TemplateEntrada)
+(ns Uri1071)
 
-
-(def entrada 5)
+(def entrada 2)
 
 (defn listaEntrada [n]
 
@@ -13,9 +12,9 @@
   (map adicinar (range 0 n))
 
   )
-
 (def valores (listaEntrada entrada))
 
+(def a (nth valores 0))
+(def b (nth valores 1))
 
-
-(print valores)
+(println (reduce +(filter pos? (map (range a b)))))

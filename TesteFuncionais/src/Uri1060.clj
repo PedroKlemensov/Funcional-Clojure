@@ -1,7 +1,5 @@
-(ns TemplateEntrada)
-
-
-(def entrada 5)
+(ns Uri1060)
+(def entrada 6)
 
 (defn listaEntrada [n]
 
@@ -16,6 +14,4 @@
 
 (def valores (listaEntrada entrada))
 
-
-
-(print valores)
+(println (reduce +(filter pos? valores) ) )
