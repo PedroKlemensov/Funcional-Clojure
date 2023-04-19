@@ -1,4 +1,6 @@
 (ns Uri1075)
+(require '[clojure.string :as str])
+
 (def numero (read-string (read-line)))
 
 (defn divisor [mapn]

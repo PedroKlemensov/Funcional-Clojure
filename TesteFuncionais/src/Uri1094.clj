@@ -1,7 +1,26 @@
 (ns Uri1094)
-(def entrada 100)
-(defn listaEntrada [n]
-  (map (fn [*] (read-string (read-line))) (range 0 n))
-  ) (def valores (listaEntrada entrada))
+(require '[clojure.string :as str])
 
-(map)
+(def entrada (read-string (read-line)))
+(defn listaEntrada [n]
+  (map
+    (fn [*]
+        (def dados (str/split (read-line) #" "))
+        (def x (read-string (get dados 0)))
+        (def y (read-string (get dados 1)))
+
+      (hash-map :quantidade x :tipo y) )
+
+    (range 0 n))
+  )
+
+(def valores (listaEntrada entrada))
+
+(defn so-valor [reg] (:quantidade reg))
+
+
+(def somaTotal (reduce + (map so-valor valores)))
+(def soma-rat (map so-valor (filter r? valores)))
+(println somaTotal)
+(println soma-rat)
+
