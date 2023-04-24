@@ -7,7 +7,7 @@
     (fn [*]
         (def dados (str/split (read-line) #" "))
         (def x (read-string (get dados 0)))
-        (def y (read-string (get dados 1)))
+        (def y  (get dados 1))
 
       (hash-map :quantidade x :tipo y) )
 
@@ -18,9 +18,16 @@
 
 (defn so-valor [reg] (:quantidade reg))
 
+(defn r? [reg]
+  (= "R" (:tipo reg)))
+
 
 (def somaTotal (reduce + (map so-valor valores)))
-(def soma-rat (map so-valor (filter r? valores)))
+(def soma-rat (reduce + (map so-valor (filter r? valores))))
+(def soma-rat (reduce + (map so-valor (filter r? valores))))
+(def soma-frg (reduce + (map so-valor (filter r? valores))))
+
 (println somaTotal)
 (println soma-rat)
+
 
