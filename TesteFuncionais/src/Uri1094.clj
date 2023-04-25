@@ -20,14 +20,29 @@
 
 (defn r? [reg]
   (= "R" (:tipo reg)))
+(defn c? [reg]
+  (= "C" (:tipo reg)))
+(defn s? [reg]
+  (= "S" (:tipo reg)))
 
 
 (def somaTotal (reduce + (map so-valor valores)))
 (def soma-rat (reduce + (map so-valor (filter r? valores))))
-(def soma-rat (reduce + (map so-valor (filter r? valores))))
-(def soma-frg (reduce + (map so-valor (filter r? valores))))
+(def soma-co (reduce + (map so-valor (filter c? valores))))
+(def soma-frog (reduce + (map so-valor (filter s? valores))))
 
-(println somaTotal)
-(println soma-rat)
+(print (format
+         "Total: %d cobaias\nTotal de coelhos: %d\nTotal de ratos: %d\nTotal de sapos: %d\nPercentual de coelhos: %.2f %%\nPercentual de ratos: %.2f %%\nPercentual de sapos: %.2f %%\n"
+         somaTotal
+         soma-co
+         soma-rat
+         soma-frog
+         (/ (* soma-co 100.0) somaTotal)
+         (/ (* soma-rat 100.0) somaTotal)
+         (/ (* soma-frog 100.0) somaTotal)))
+
+
+
+
 
 
