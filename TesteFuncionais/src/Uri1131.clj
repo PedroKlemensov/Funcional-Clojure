@@ -32,15 +32,12 @@
 (def empates (count (filter enpate? entrada)))
 
 (def ganhador  (cond
-                     (and (> empates vinter) (> empates vgremio)) (str "Nao houve vencedor")
-                     (> vgremio vinter) (str "Inter venceu mais")
-                     (< vgremio vinter) (str "Gremio venceu mais")
-                     ))
-(print (format
-           "%d grenais\nInter: %d\nGremio: %d\nEmpates: %d\n%s\n"
-           (count entrada)
-           vinter
-           vgremio
-           empates
-           ganhador
-           ))
+                 (and (> empates vinter) (> empates vgremio)) (str "Nao houve vencedor")
+                 (> vgremio vinter) (str "Gremio venceu mais")
+                 (< vgremio vinter) (str "Inter venceu mais")
+                 ))
+(println (str (count entrada) " grenais"))
+(println (str "Inter:" vinter))
+(println (str "Gremio:" vgremio))
+(println (str "Empates:" empates))
+(println ganhador)
