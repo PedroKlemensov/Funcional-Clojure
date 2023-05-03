@@ -12,5 +12,4 @@
 (println (format "MUITO OBRIGADO\nAlcool: %d\nGasolina: %d\nDiesel: %d"
                  (count (filter #(= % 1) valores))
                  (count (filter #(= % 2) valores))
-                 (count (filter #(= % 3) valores))
-))
+                 (count (filter #(= % 3) valores))))
