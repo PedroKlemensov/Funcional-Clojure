@@ -4,4 +4,4 @@
   ) (def valores (listaEntrada 1))
 
 
-(println (reduce * (range 1 (inc (last valores)))))
+(println (reduce * (range 1 (inc (last valores)))) )
