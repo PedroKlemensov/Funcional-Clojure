@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf06f360-bca8-450b-8849-4d635cb4af1d" name="Changes" comment="" />
+    <list default="true" id="cf06f360-bca8-450b-8849-4d635cb4af1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,9 +34,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cursive.last.file.extension.C\\:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais/src&quot;: &quot;clj&quot;,
     &quot;cursive.last.file.extension.D\\:/projetos/Funcional-Clojure/TesteFuncionais/src&quot;: &quot;clj&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/pedro/Documents/GitHub/Funcional-Clojure/TesteFuncionais&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -60,20 +65,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
-      <module name="TesteFuncionais" />
-      <setting name="displayName" value="oPRPL" />
-      <setting name="replType" value="NREPL" />
-      <setting name="execution" value="INTELLIJ" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="profiles" value="" />
-      <setting name="aliases" value="" />
-      <setting name="fixLineNumbers" value="false" />
-      <setting name="focusEditor" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="replType" value="NREPL" />
@@ -95,6 +86,20 @@
       <setting name="configType" value="SPECIFY" />
       <setting name="replPortFileType" value="STANDARD" />
       <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <setting name="focusEditor" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <module name="TesteFuncionais" />
+      <setting name="displayName" value="oPRPL" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
       <setting name="fixLineNumbers" value="false" />
       <setting name="focusEditor" value="false" />
       <method v="2" />
@@ -143,6 +148,17 @@
       <workItem from="1682731420997" duration="6211000" />
       <workItem from="1683112199887" duration="2977000" />
       <workItem from="1683391870264" duration="1396000" />
+      <workItem from="1684604719023" duration="4000" />
+      <workItem from="1685402044001" duration="67000" />
+      <workItem from="1685730065271" duration="155000" />
+      <workItem from="1685730238703" duration="28000" />
+      <workItem from="1685836806990" duration="108000" />
+      <workItem from="1685836929210" duration="53000" />
+      <workItem from="1685836996572" duration="58000" />
+      <workItem from="1685837068670" duration="255000" />
+      <workItem from="1689130454763" duration="65000" />
+      <workItem from="1690888521077" duration="25000" />
+      <workItem from="1690888558075" duration="133000" />
     </task>
     <servers />
   </component>
